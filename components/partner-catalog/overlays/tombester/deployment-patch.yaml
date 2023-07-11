@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: partner-catalog
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhn-sa-itengval-tenant/partner-catalog/partner-catalog@sha256:f15bf825ae883beda0a05d15debfaa4fc972049e3d38a430f1b9d5fb832a932c
+      - image: quay.io/redhat-user-workloads/rhn-sa-itengval-tenant/partner-catalog/partner-catalog@sha256:69d5b9b85013395536d6c7c87ca3b4c8df1afd3f7af49e9436ea10caa2b6d8ee
         name: my-java-springboot
         resources: {}
 status: {}
